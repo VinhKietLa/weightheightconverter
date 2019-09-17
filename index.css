@@ -13,11 +13,11 @@ body {
 }
 
 #inputSection{
-  text-align: center;
+  text-align: left;
 }
 
 #weightInput {
-  width: 80%;
+  width: 60%;
   height: 2.25em;
 }
 

@@ -51,15 +51,22 @@ const w3 = document.querySelector('.w3');
 // });
 
 //CONVERTS USER INPUT TO KG, POUNDS AND STONES FROM **GRAMS**//
-userWeightInput.addEventListener('input',(event) => {
-  event.preventDefault();
-  if (isNaN(event.target.value) ){
-    numberOnlyError.innerHTML ='Please enter a number only';
-    setTimeout(function(){numberOnlyError.style.display = 'none';}, 2500);
-  }
-  let userInput = event.target.value;
-  w1.innerHTML = '<p>KILOGRAM: ' + (userInput / 1000).toFixed(3) + '</p>';
-  w2.innerHTML = '<p>POUNDS: ' + (userInput / 453.592).toFixed(3) + '</p>';
-  w3.innerHTML = '<p>STONES: ' + (userInput / 6350.293).toFixed(3) + '</p>';
+// userWeightInput.addEventListener('input',(event) => {
+//   event.preventDefault();
+//   if (isNaN(event.target.value) ){
+//     numberOnlyError.innerHTML ='Please enter a number only';
+//     setTimeout(function(){numberOnlyError.style.display = 'none';}, 2500);
+//   }
+//   let userInput = event.target.value;
+//   w1.innerHTML = '<p>KILOGRAM: ' + (userInput / 1000).toFixed(3) + '</p>';
+//   w2.innerHTML = '<p>POUNDS: ' + (userInput / 453.592).toFixed(3) + '</p>';
+//   w3.innerHTML = '<p>STONES: ' + (userInput / 6350.293).toFixed(3) + '</p>';
+//
+// });
 
+//SELECTION OPTION DROPDOWN//
+const selectMetric = document.querySelector('#selectMetric');
+
+selectMetric.addEventListener('change',() => {
+  alert(selectMetric.value);
 });

@@ -89,14 +89,15 @@ line-height: 3.5em;
 padding-left: 1.5em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 .container{
-  width: 70%;
+  width: 90%;
+  max-width: 1200px;
 }
 
 #grid1{
@@ -119,7 +120,7 @@ padding-left: 1.5em;
 }
 
 #selectWeight, #selectHeight {
-  width: 10%;
+  width: 15%;
 }
 
 }

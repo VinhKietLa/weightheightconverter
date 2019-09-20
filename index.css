@@ -12,34 +12,26 @@ body {
   color: white;
 }
 
-#inputSection{
+/*Weight Classes*/
+#inputSection {
   text-align: center;
 }
 
-#selectMetric {
+#selectMetric, #selectHeight {
   height:2.7em;
 }
 
-#weightInput {
+#weightInput, #heightInput {
   width: 60%;
   height: 2.25em;
 }
 
-#numberOnlyError{
-  text-align: center;
-  color: black;
-  background-color: red;
-  width: 40%;
-  margin: auto;
-  font-weight: bold;
-}
-
-#weightClasses{
+#weightClasses, #heightClasses{
   width:80%;
   margin: 0 auto;
 }
 
-#weight1 {
+#weight1  {
   background-color: #D12323;
   height: 4em;
   text-align:left;
@@ -59,6 +51,37 @@ body {
 }
 
 .w1, .w2, .w3 {
+line-height: 3.5em;
+padding-left: 1.5em;
+}
+
+/*Height classes*/
+
+#inputSection2 {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#height1  {
+  background-color: #E4E918;
+  height: 4em;
+  text-align:left;
+  color:white;
+}
+#height2 {
+  background-color: #8001C4;
+  height: 4em;
+  text-align:left;
+  color:white;
+}
+#height3 {
+  background-color: #E75106;
+  height: 4em;
+  text-align:left;
+  color:white;
+}
+
+.h1, .h2, .h3 {
 line-height: 3.5em;
 padding-left: 1.5em;
 }

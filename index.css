@@ -88,3 +88,38 @@ padding-left: 1.5em;
 line-height: 3.5em;
 padding-left: 1.5em;
 }
+
+@media (min-width: 768px) {
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+  width: 70%;
+}
+
+#grid1{
+  margin-top: 2em;
+  float: left;
+  width: 50%;
+}
+
+#grid2{
+  margin-top: 2em;
+  float:right;
+  width: 50%;
+}
+#inputSection2 {
+  margin-top: 0em;
+}
+
+#weightInput, #heightInput {
+  width: 60%;
+}
+
+#selectWeight, #selectHeight {
+  width: 10%;
+}
+
+}

@@ -21,6 +21,7 @@ const weightConversion = () => {
         w2.innerHTML = '<p>POUNDS: ' + (userInput * 14).toFixed(2) + '</p>';
         w3.innerHTML = '<p>GRAMS: ' + (userInput * 6350.293).toFixed(2) + '</p>';
     } else if(selectMetric.value === 'GRAMS'){
+
         w1.innerHTML = '<p>KILOGRAM: ' + (userInput / 1000).toFixed(3) + '</p>';
         w2.innerHTML = '<p>POUNDS: ' + (userInput / 453.592).toFixed(3) + '</p>';
         w3.innerHTML = '<p>STONES: ' + (userInput / 6350.293).toFixed(3) + '</p>';

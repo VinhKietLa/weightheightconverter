@@ -3,7 +3,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 31.250em;
+  width: 100%;
   font-family: sans-serif;
 }
 
@@ -17,17 +17,20 @@ body {
   text-align: center;
 }
 
-#selectMetric, #selectHeight {
+#selectWeight, #selectHeight {
   height:2.7em;
+  width: 71%;
+  font-size: 1.2em;
 }
 
 #weightInput, #heightInput {
-  width: 60%;
+  width: 70%;
   height: 2.25em;
+  font-size: 1.2em;
 }
 
 #weightClasses, #heightClasses{
-  width:80%;
+  width:70%;
   margin: 0 auto;
 }
 

@@ -3,7 +3,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 500px;
+  width: 31.250em;
   font-family: sans-serif;
 }
 
@@ -13,7 +13,11 @@ body {
 }
 
 #inputSection{
-  text-align: left;
+  text-align: center;
+}
+
+#selectMetric {
+  height:2.7em;
 }
 
 #weightInput {
@@ -54,7 +58,7 @@ body {
   color:white;
 }
 
-.IBS, .Stones, .Grams {
+.w1, .w2, .w3 {
 line-height: 3.5em;
 padding-left: 1.5em;
 }
